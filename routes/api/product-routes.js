@@ -13,8 +13,9 @@ router.get('/', async (req, res) => {
         });
 
         res.status(200).json(productData);
-
-    } catch (err) {
+    } 
+    
+    catch (err) {
         res.status(500).json(err);
     }
 });
@@ -24,7 +25,7 @@ router.get('/:id', async (req, res) => {
     // find a single product by its `id`
     // be sure to include its associated Category and Tag data
     try {
-        const productData =  await Product.findOne({
+        const productData = await Product.findOne({
             where: {id: req.params.id},
             include: [{ model: Category, attributes: ['category_name'] }, { model: Tag, attributes: ['tag_name'] }]
         });
@@ -35,7 +36,9 @@ router.get('/:id', async (req, res) => {
         }
     
         res.status(200).json(productData);
-    } catch (err) {
+    } 
+    
+    catch (err) {
         res.status(500).json(err);
     }
 });
@@ -55,10 +58,10 @@ router.post('/', (req, res) => {
         // if there's product tags, we need to create pairings to bulk create in the ProductTag model
         if (req.body.tagIds.length) {
             const productTagIdArr = req.body.tagIds.map((tag_id) => {
-            return {
-                product_id: product.id,
-                tag_id,
-            };
+                return {
+                    product_id: product.id,
+                    tag_id,
+                };
             });
             return ProductTag.bulkCreate(productTagIdArr);
         }
@@ -91,10 +94,10 @@ router.put('/:id', (req, res) => {
         const newProductTags = req.body.tagIds
             .filter((tag_id) => !productTagIds.includes(tag_id))
             .map((tag_id) => {
-            return {
-                product_id: req.params.id,
-                tag_id,
-            };
+                return {
+                    product_id: req.params.id,
+                    tag_id,
+                };
             });
         // figure out which ones to remove
         const productTagsToRemove = productTags

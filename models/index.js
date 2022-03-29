@@ -34,6 +34,3 @@ module.exports = {
   Tag,
   ProductTag,
 };
-
-
-// Do I need some type of forgegin key?
