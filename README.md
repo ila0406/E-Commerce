@@ -1,7 +1,7 @@
 # E-Commerce
 
 ## GitHub Repository & Deployed Application
-* https://github.com/ila0406/xxxxxxxx
+* https://github.com/ila0406/E-Commerce
 * https://xxxxxxxx.herokuapp.com/
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
