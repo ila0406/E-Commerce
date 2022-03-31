@@ -55,7 +55,12 @@ Once Installed
 * Tag Route Video - https://www.loom.com/share/e741c3a3ca8a4aee843cc6a8aabf13c6
 * Insomonia Route Structure 
 
-<img src="./Assets/insomonia.png" width="150">
+<img src="./Assets/Insomonia.png" width="150">
+
+### DB Structure 
+
+<img src="./Assets/DB1.png" width="350">
+<img src="./Assets/DB2.png" width="350">
 
 ### GET all
 
