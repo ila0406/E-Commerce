@@ -44,7 +44,7 @@ Once Installed
 * Starter code was provided by DU and received advice from tutor, instructors, and fellow class members
 
 ## <a id='instructions-for-testing'  href='#readme-badges'><img id='usage' src='https://i.imgur.com/7jEx40O.png' style='height: 40px'></a>
-* Routes can be tested Insomonia
+* Routes can be tested with Insomonia
 * DB can be tested by running queries directly against seeded DB
 
 ## <a id='screenshots' href='#readme-badges'><img id='usage' src='https://i.imgur.com/WaoO6zA.png' style='height: 40px'></a>
