@@ -55,27 +55,27 @@ Once Installed
 * Tag Route Video - https://www.loom.com/share/e741c3a3ca8a4aee843cc6a8aabf13c6
 * Insomonia Route Structure 
 
-<img src="./assets/insomonia.png" width="150">
+<img src="./Assets/insomonia.png" width="150">
 
 ### GET all
 
-<img src="./assets/GETall.png" width="500">
+<img src="./Assets/GETall.png" width="500">
 
 ### GET by ID
 
-<img src="./assets/GETid.png" width="500">
+<img src="./Assets/GETid.png" width="500">
 
 ### POST
 
-<img src="./assets/POST.png" width="500">
+<img src="./Assets/POST.png" width="500">
 
 ### PUT
 
-<img src="./assets/PUT.png" width="500">
+<img src="./Assets/PUT.png" width="500">
 
 ### DELETE
 
-<img src="./assets/DEL.png" width="500">
+<img src="./Assets/DEL.png" width="500">
 
 ## <a id='questions' href='#readme-badges'><img id='usage' src='https://imgur.com/Z3i069z.png' style='height: 40px'></a>
 If you have questions, you can either open a issue in my Github repository <br>
