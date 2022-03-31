@@ -1,6 +1,6 @@
 # E-Commerce
 
-## GitHub Repository & Deployed Application
+## GitHub Repository & Walkthrough Video
 * https://github.com/ila0406/E-Commerce
 * https://www.loom.com/share/ae518169a2324f0fa6e3db3efc82b637
 
@@ -50,34 +50,32 @@ Once Installed
 ## <a id='screenshots' href='#readme-badges'><img id='usage' src='https://i.imgur.com/WaoO6zA.png' style='height: 40px'></a>
 
 ### Insomonia Routes
+* Product Route Video - https://www.loom.com/share/2ebda8ec107d4fa78dd1d4ff3916720a
+* Category Route Video - https://www.loom.com/share/ad94785cabf94d4386dbbac2559d5e84
+* Tag Route Video - https://www.loom.com/share/e741c3a3ca8a4aee843cc6a8aabf13c6
+* Insomonia Route Structure 
 
 <img src="./assets/insomonia.png" width="150">
 
 ### GET all
 
-<img src="./assets/GETtag.png" width="500">
-<img src="./assets/GETprod.png" width="500">
-<img src="./assets/GETcat.png" width="500">
+<img src="./assets/GETall.png" width="500">
 
 ### GET by ID
-<img src="./assets/GETtagID.png" width="500">
-<img src="./assets/GETprodID.png" width="500">
-<img src="./assets/GETcatID.png" width="500">
+
+<img src="./assets/GETid.png" width="500">
 
 ### POST
-<img src="./assets/POSTtag.png" width="500">
-<img src="./assets/POSTprod.png" width="500">
-<img src="./assets/POSTcat.png" width="500">
+
+<img src="./assets/POST.png" width="500">
 
 ### PUT
-<img src="./assets/PUTtag.png" width="500">
-<img src="./assets/PUTprod.png" width="500">
-<img src="./assets/PUTcat.png" width="500">
+
+<img src="./assets/PUT.png" width="500">
 
 ### DELETE
-<img src="./assets/DELtag.png" width="500">
-<img src="./assets/DELprod.png" width="500">
-<img src="./assets/DELcat.png" width="500">
+
+<img src="./assets/DEL.png" width="500">
 
 ## <a id='questions' href='#readme-badges'><img id='usage' src='https://imgur.com/Z3i069z.png' style='height: 40px'></a>
 If you have questions, you can either open a issue in my Github repository <br>
